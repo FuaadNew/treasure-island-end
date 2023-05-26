@@ -33,9 +33,11 @@ if Answer.lower() == "left":
   print("You've come to a lake. There is an island in the middle of the lake.")
   Answer=input("swim or wait")
   if Answer.lower() == "wait":
+    print("Somehthing large moves under the lake, you wait until movement ceases and leap into the water")
+    print("You arive at the island, there is a castle with three entrances.")
     Answer= input("Which Door?: RED: BLUE: YELLOW:")
     if Answer.lower() == "red":
-      print("Burned by fire. You Die.")
+      print("The room is full with fire that quickly expands to engulf you. You Die.")
     if Answer.lower() == "blue":
       print('''
                    (    )
@@ -61,7 +63,7 @@ if Answer.lower() == "left":
                             / /
                           _/,/'
                         /,/,"''')
-      print("Eaten by beasts. Game Over.")
+      print("*Something* swings it axe. You die before you can register anything. Game Over.")
 
     if Answer.lower() == "yellow":
       print('''-----------------------------------------------------
@@ -84,7 +86,7 @@ if Answer.lower() == "left":
                                         (_/(_/
 ----------------------------------------------------
 ''')
-      print("You Win!")
+      print("You found the treasure! You win!")
 
       
   else:
