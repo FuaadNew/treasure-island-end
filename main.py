@@ -27,8 +27,10 @@ print("Your mission is to find the treasure.")
 
 #Write your code below this line 👇
 print("Welcome to Treasure Island. You mission is to to find the treasure.")
+print("You are at a crossroads, where do you want to go?")
 Answer= input("left or right?")
 if Answer.lower() == "left": 
+  print("You've come to a lake. There is an island in the middle of the lake.")
   Answer=input("swim or wait")
   if Answer.lower() == "wait":
     Answer= input("Which Door?: RED: BLUE: YELLOW:")
@@ -86,6 +88,7 @@ if Answer.lower() == "left":
 
       
   else:
+    print("A mounsterous trout springs from the lake")
     print('''
                                      _
                                     (_)
